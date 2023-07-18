@@ -362,8 +362,18 @@ footer {
   margin: 10px;
 }
 
+
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
+  .ocultar{
+    display: none;
+  }
+  .navigation-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
   nav {
     padding: 1.5rem 1rem;
   }
@@ -371,12 +381,12 @@ footer {
     position: fixed;
     background-color: var(--bg-color);
     flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 80%;
+    top: 5rem;
+    right: 0;
+    min-width: 40%;
     text-align: center;
-    transform: translateX(120%);
     transition: transform 0.5s ease-in;
+    z-index: 50;
   }
 
   nav ul li {
@@ -384,8 +394,9 @@ footer {
   }
 
   .burger-menu {
-    display: block;
+    display: flex;
   }
+  
 
   nav ul.show {
     transform: translateX(0);
