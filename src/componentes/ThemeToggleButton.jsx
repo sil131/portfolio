@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import sunIcon from '../assets/sun.svg';
-import moonIcon from '../assets/moon.svg'
+import moonIcon from '../assets/moon.svg';
 
 const ThemeToggleButton = ({ burguerFunction }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -16,16 +16,15 @@ const ThemeToggleButton = ({ burguerFunction }) => {
 
   return (
     <>
-      <button
-        onClick={handleToggleTheme}
-        className={`theme-toggle-button ${isDarkMode ? 'dark-mode' : 'light-mode'}`}
-      >
-        {isDarkMode ? (
-          <img src={moonIcon} alt="Moon Icon" style={{ height: '24px', width: '24px' }} />
-        ) : (
-          <img src={sunIcon} alt="Sun Icon" style={{ height: '24px', width: '24px' }} />
-        )}
-      </button>
+      <div className={`theme-toggle-button ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
+        <button onClick={handleToggleTheme}>
+          {isDarkMode ? (
+            <img src={moonIcon} alt="Moon Icon" style={{ height: '24px', width: '24px' }} />
+          ) : (
+            <img src={sunIcon} alt="Sun Icon" style={{ height: '24px', width: '24px' }} />
+          )}
+        </button>
+      </div>
 
       <button className="burger-menu" id="burger-menu" onClick={burguerFunction}>
         <svg
