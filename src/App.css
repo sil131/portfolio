@@ -53,6 +53,7 @@ body.dark-mode .section{
     border-radius: 4px; 
     display: flex;
     flex-direction: row-reverse;
+    border:none
   }
  
   .theme-toggle-button.dark-mode {
@@ -318,6 +319,17 @@ nav ul li {
   bottom: 50%;
 }
 
+.socials.light-mode {
+  background-color: #ffffff;
+}
+
+
+.socials.dark-mode {
+  background-color: #333333;
+ 
+}
+
+
 .socicon {
   width: 2rem;
   height: 2rem;
@@ -330,6 +342,16 @@ nav ul li {
   right: 0.5%;
   bottom: 3%;
   cursor: pointer;
+}
+
+.scroll-up.light-mode {
+  background-color: #ffffff;
+}
+
+
+.scroll-up.dark-mode {
+  background-color: #333333;
+ 
 }
 
 .up-arrow {

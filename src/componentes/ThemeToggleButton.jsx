@@ -16,15 +16,16 @@ const ThemeToggleButton = ({ burguerFunction }) => {
 
   return (
     <>
-      <div className={`theme-toggle-button ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
-        <button onClick={handleToggleTheme}>
-          {isDarkMode ? (
-            <img src={moonIcon} alt="Moon Icon" style={{ height: '24px', width: '24px' }} />
-          ) : (
-            <img src={sunIcon} alt="Sun Icon" style={{ height: '24px', width: '24px' }} />
-          )}
-        </button>
-      </div>
+      <button
+        onClick={handleToggleTheme}
+        className={`theme-toggle-button ${isDarkMode ? 'dark-mode' : 'light-mode'}`}
+      >
+        {!isDarkMode ? (
+          <img src={moonIcon} alt="Moon Icon" style={{ height: '24px', width: '24px', fill: '#333333' }} />
+        ) : (
+          <img src={sunIcon} alt="Sun Icon" style={{ height: '24px', width: '24px' }} />
+        )}
+      </button>
 
       <button className="burger-menu" id="burger-menu" onClick={burguerFunction}>
         <svg
