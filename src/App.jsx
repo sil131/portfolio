@@ -8,10 +8,11 @@ import Contact from "./componentes/contact";
 import Socials from "./componentes/socials";
 import Scrollup from "./componentes/scrollup";
 import Footer from "./componentes/footer";
+import { ThemeProvider } from './ThemeContext';
 
 function App(){
   return (
-    <>
+    <ThemeProvider>
     <Header />
     <Hero/>
     <Moreabout />
@@ -21,7 +22,7 @@ function App(){
     <Socials/>
     <Scrollup/>
     <Footer/>
-    </>
+    </ThemeProvider>
 
   )
 }

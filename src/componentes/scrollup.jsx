@@ -21,7 +21,7 @@ function Scrollup() {
       id="scroll-up"
       onClick={handleScrollUp}
     >
-      <box-icon type='solid' name='up-arrow-circle' animation='tada' color='orange'></box-icon>
+      <box-icon type='solid' name='up-arrow-circle' animation='tada' color='blue'></box-icon>
     </i>
   );
 }

@@ -127,9 +127,7 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
-/* Navbar ends */
 
-/* Hero section */
 .hero {
   display: flex;
   align-items: center;
@@ -159,9 +157,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
-/* Hero section ends */
 
-/* More about */
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
@@ -179,9 +175,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
 }
-/* More about ends */
 
-/* Skills section */
 .skills {
   max-width: 68.75rem;
   margin: auto;
@@ -201,9 +195,7 @@ nav ul li {
   width: 11.875rem;
   height: 11.25rem;
 }
-/* Skills section ends */
 
-/* Projects section */
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
@@ -244,9 +236,6 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
-/* Projects section ends */
-
-/* Contacts section */
 .contact {
   margin-top: 2rem;
 }
@@ -308,9 +297,7 @@ nav ul li {
   border: 2px solid var(--secondary-color);
   cursor: pointer;
 }
-/* Contacts section ends */
 
-/* Social buttons */
 .socials {
   display: flex;
   flex-direction: column;
