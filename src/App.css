@@ -81,7 +81,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  
+  color-scheme: 'dark';
  }
 
 nav {
