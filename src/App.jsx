@@ -8,7 +8,7 @@ import Contact from "./componentes/contact";
 import Socials from "./componentes/socials";
 import Scrollup from "./componentes/scrollup";
 import Footer from "./componentes/footer";
-import { ThemeProvider } from './ThemeContext';
+import { ThemeProvider } from './componentes/ThemeContext';
 
 function App(){
   return (
