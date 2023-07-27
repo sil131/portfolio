@@ -81,11 +81,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  color-scheme: dark;
-}
-div{
-  display: flex;
-}
+ }
 
 nav {
   position: sticky;
@@ -407,7 +403,7 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color: var(--primary-shadow);
+    background-color: var(--bg-color);
     flex-direction: column;
     top: 5rem;
     right: 0;
