@@ -8,14 +8,10 @@ function Hero({isDarkMode}) {
                 <div className="bio animate__animated animate__shakeX">
                     <h2 className="bio-title">¡Hola! Soy Silvano Cibarelli,</h2>
                     <p className="bio-text">
-                    
-Desarrollador Web
+                    un apasionado desarrollador web que está a punto de completar su formación. Mi fascinación por la tecnología me ha llevado a explorar el mundo del desarrollo web, donde he adquirido habilidades sólidas en HTML, CSS, JavaScript y Node.js. </p>
+                    <p className="bio-text">Mi enfoque en la resolución de problemas me permite crear soluciones creativas y funcionales. En esta sección de mi portfolio, podrás ver mis proyectos destacados, con un diseño moderno y funcionalidad impecable. Estoy emocionado de compartir mi trabajo y estoy abierto a nuevas oportunidades y colaboraciones emocionantes. ¡Bienvenidos a mi portfolio!
 
-Bienvenido a mi portfolio. Soy un apasionado desarrollador web con experiencia en la creación de sitios y aplicaciones web. Mi objetivo es diseñar y desarrollar soluciones digitales innovadoras y atractivas que brinden una experiencia excepcional a los usuarios.
 
-Explora mi trabajo y descubre cómo combino mi habilidad en tecnologías de vanguardia con un enfoque creativo para crear proyectos únicos y funcionales. ¡Espero que disfrutes explorando mi mundo digital!
-
-¡Gracias por visitar!
 
                     </p>
                 </div>

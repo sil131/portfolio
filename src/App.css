@@ -81,11 +81,12 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  color-scheme: dark;
+}
+div{
+  display: flex;
 }
 
-/* CSS Resets end */
-
-/* Navbar */
 nav {
   position: sticky;
   top: 0;
@@ -168,6 +169,9 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  max-width: 70ch;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow)
 }
 
 .more-about h2 {
@@ -295,7 +299,7 @@ nav ul li {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
+  background-color:var(--primary-color);
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   font-size: 1rem;
@@ -304,8 +308,8 @@ nav ul li {
 }
 
 .submit-btn:hover {
-  background-color: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   cursor: pointer;
 }
 /* Contacts section ends */
@@ -403,7 +407,7 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color: var(--bg-color);
+    background-color: var(--primary-shadow);
     flex-direction: column;
     top: 5rem;
     right: 0;
@@ -427,7 +431,7 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
+   /* margin-top: -4rem;*/
     flex-direction: column;
     gap: 0;
   }
