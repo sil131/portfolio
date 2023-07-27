@@ -13,6 +13,7 @@ import { ThemeProvider } from './componentes/ThemeContext';
 function App(){
   return (
     <ThemeProvider>
+     
     <Header />
     <Hero/>
     <Moreabout />
@@ -22,6 +23,7 @@ function App(){
     <Socials/>
     <Scrollup/>
     <Footer/>
+   
     </ThemeProvider>
 
   )

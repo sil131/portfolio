@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'boxicons';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../componentes/ThemeContext';
 
 function Socials() {
   const { isDarkMode, setIsDarkMode } = useTheme();
