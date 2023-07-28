@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import 'boxicons';
+import { useTheme } from './ThemeContext';
 
 function Scrollup() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const {isDarkMode, setIsDarkMode} = useTheme();
 
   const handleToggleTheme = () => {
     setIsDarkMode(!isDarkMode);

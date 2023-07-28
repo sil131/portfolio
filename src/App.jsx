@@ -9,11 +9,12 @@ import Socials from "./componentes/socials";
 import Scrollup from "./componentes/scrollup";
 import Footer from "./componentes/footer";
 import { ThemeProvider } from './componentes/ThemeContext';
+import ThemeToggleButton from './componentes/ThemeToggleButton';
 
 function App(){
   return (
     <ThemeProvider>
-     
+     <ThemeToggleButton /> 
     <Header />
     <Hero/>
     <Moreabout />
@@ -23,7 +24,6 @@ function App(){
     <Socials/>
     <Scrollup/>
     <Footer/>
-   
     </ThemeProvider>
 
   )
