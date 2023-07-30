@@ -8,7 +8,7 @@
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: "Roboto", sans-serif;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -53,7 +53,7 @@ body.dark-mode .section{
     border-radius: 4px; 
     display: flex;
     flex-direction: row-reverse;
-    border:none
+    
   }
  
   .theme-toggle-button.dark-mode {
