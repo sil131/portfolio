@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from "./componentes/header";
 import './App.css';
 import Hero from "./componentes/hero";
@@ -10,19 +10,9 @@ import Socials from "./componentes/socials";
 import Scrollup from "./componentes/scrollup";
 import Footer from "./componentes/footer";
 
-
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(prevMode => !prevMode);
-  };
-
   return (
-    <div className={`app ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
-      {/* Pass the isDarkMode and toggleDarkMode as props to Menu */}
-      <Menu isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-
+    <div className="app">
       <Header />
       <Hero />
       <Moreabout />

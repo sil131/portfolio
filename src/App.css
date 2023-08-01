@@ -31,36 +31,7 @@
   --secondary-shadow: #a17a69;
   /* Otros estilos para el modo dark */
 }
-body.light-mode .section {
-  background-color: #fcfcfc;
-  color: #000000;
-  /* Otros estilos para el modo light */
-}
 
-/* Estilos para el modo dark */
-body.dark-mode .section{
-  background-color: #333333;
-  color: #ffffff;}
-
-  .theme-toggle-button {
-    background-color: #ffffff;
-    color: #000000;
-    border: 1px solid #000000;
-    padding: 8px 16px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 4px; 
-    display: flex;
-    flex-direction: row-reverse;
-    
-  }
- 
-  .theme-toggle-button.dark-mode {
-    background-color: #333333;
-    color: #ffffff;
-    border-color: #ffffff;
-  }
 
 html {
   scroll-behavior: smooth;
@@ -160,8 +131,9 @@ nav ul li {
 }
 
 .more-about {
+  margin: auto;
   background-color: var(--bg-color);
-  padding: 1rem 6rem;
+  padding: 1rem 2rem;
   max-width: 70ch;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow)
