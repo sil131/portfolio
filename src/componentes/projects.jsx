@@ -4,7 +4,7 @@ import greeny from '../assets/greenyEarth.png'
 function Projects (){
     return(
         <section className="projects section" id="projects">
-        <h2 className="projects-title">Some of my Recent Projects</h2>
+        <h2 className="projects-title">Algunos De Mis Proyectos Recientes</h2>
         <div className="projects-container">
           <div className="project-container project-card section">
             <img
@@ -19,7 +19,7 @@ function Projects (){
               ratione vel inventore labore commodi modi quos culpa aut saepe!
               Alias!
             </p>
-            <a href="#" target="_blank" className="project-link">Check it Out</a>
+            <a href="#" target="_blank" className="project-link">Mira Esto</a>
           </div>
           <div className="project-container project-card section">
             <img
@@ -34,7 +34,7 @@ function Projects (){
               ratione vel inventore labore commodi modi quos culpa aut saepe!
               Alias!
             </p>
-            <a href="#" target="_blank" className="project-link">Check it Out</a>
+            <a href="#" target="_blank" className="project-link">Mira Esto</a>
           </div>
           <div className="project-container project-card section">
             <img
@@ -49,7 +49,7 @@ function Projects (){
               ratione vel inventore labore commodi modi quos culpa aut saepe!
               Alias!
             </p>
-            <a href="#" target="_blank" className="project-link">Check it Out</a>
+            <a href="#" target="_blank" className="project-link">Mira esto</a>
           </div>
         </div>
       </section>

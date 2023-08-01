@@ -1,7 +1,7 @@
 function Moreabout (){
     return(
         <section className="more-about section">
-      <h2>More About Me</h2>
+      <h2>Más Sobre Mí</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
         nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,

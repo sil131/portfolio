@@ -1,39 +1,39 @@
 function Contact (){
     return(
 <section className="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
+      <h2>Contacto</h2>
       <div className="contact-form-container">
         <div className="contact-form">
-          <form action="https://formspree.io/f/xyylnggw" method="POST">
+          <form action="https://formsubmit.co/sil131@gmail.com " method="POST">
             <div className="form-control">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Nombre</label>
               <input
                 type="text"
                 id="name"
-                name="sender-name"
-                placeholder="Enter Your Name"
+                name="name"
+                placeholder="Ingrese su nombre"
                 className="input-field"
                 required
               />
             </div>
             <div className="form-control">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Correo Electronico</label>
               <input
                 type="email"
                 id="email"
-                name="sender-email"
-                placeholder="Enter Your Email"
+                name="email"
+                placeholder="Ingrese su correo electronico"
                 className="input-field"
                 required
               />
             </div>
             <div className="form-control">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Mensaje</label>
               <textarea
                 id="message"
                 cols="60"
                 rows="10"
-                placeholder="Enter Your Message"
+                placeholder="Ingrese su mensaje"
                 name="message"
                 className="input-field"
                 required
@@ -41,7 +41,7 @@ function Contact (){
             </div>
             <input
               type="submit"
-              value="Submit"
+              value="Enviar"
               id="submit-btn"
               className="submit-btn"
             />

@@ -25,17 +25,13 @@ function Menu() {
       </div>
 
       <ul className={`navigation ${isMenuOpen ? 'show' : ''}`} id="navigation">
-        <li><a href="#about" className="nav-link">About</a></li>
-        <li><a href="#skills" className="nav-link">Skills</a></li>
-        <li><a href="#projects" className="nav-link">Projects</a></li>
-        <li><a href="#contact" className="nav-link">Contact</a></li> 
+        <li><a href="#about" className="nav-link">Acerca</a></li>
+        <li><a href="#skills" className="nav-link">Habilidades</a></li>
+        <li><a href="#projects" className="nav-link">Proyectos</a></li>
+        <li><a href="#contact" className="nav-link">Contacto</a></li> 
       </ul>
     </>
   );
 }
 
 export default Menu;
-
-
-
-

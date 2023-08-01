@@ -8,7 +8,7 @@ import github from '../assets/icons8-github-128.svg'
 function Skills (){
     return(
       <section className="skills section" id="skills">
-      <h2 className="skill-header">My Top Skills</h2>
+      <h2 className="skill-header">Mis Mejores Habilidades</h2>
 
       <div className="skills-wrapper">
         <div className="first-set animate__animated animate__pulse">
