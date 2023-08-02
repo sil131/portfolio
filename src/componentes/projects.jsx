@@ -4,7 +4,7 @@ import greeny from '../assets/greenyEarth.png'
 function Projects (){
     return(
         <section className="projects section" id="projects">
-        <h2 className="projects-title">Algunos De Mis Proyectos Recientes</h2>
+        <h2 className="projects-title">Algunos De Mis Proyectos</h2>
         <div className="projects-container">
           <div className="project-container project-card section">
             <img

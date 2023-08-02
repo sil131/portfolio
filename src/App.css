@@ -415,7 +415,7 @@ footer {
   }
 
   .hero {
-   /* margin-top: -4rem;*/
+    margin-top: -4rem;
     flex-direction: column;
     gap: 0;
   }
@@ -423,24 +423,21 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 30rem;
+    clip-path: circle(35%);
   }
 
   .bio {
-    margin-top: -2rem;
+    margin-top: -4rem;
     width: 20.5rem;
   }
 
   .more-about {
     margin: 2rem;
-    padding: 1rem 3.5rem;
+    padding: 1rem;
   }
 
   .more-about h2 {
     text-align: center;
-  }
-
-  .more-about p {
-    text-align: justify;
   }
 
   .icon {
