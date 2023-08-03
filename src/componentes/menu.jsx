@@ -29,7 +29,7 @@ function Menu() {
         <li><a href="#skills" className="nav-link">Habilidades</a></li>
         <li><a href="#projects" className="nav-link">Proyectos</a></li>
         <li><a href="#contact" className="nav-link">Contacto</a></li>
-        <li><a href='../assets/CURRICULUM VITAE SILVANO.pdf' className="nav-link" download='CURRICULUM VITAE SILVANO.pdf' >Descargar CV</a></li>  
+        <li><a href='../../public/CURRICULUM VITAE SILVANO.pdf' className="nav-link" download='CURRICULUM VITAE SILVANO.pdf' >Descargar CV</a></li>  
       </ul>
     </>
   );
